@@ -11,12 +11,12 @@ function Logo() {
   return pathname === AppRoute.MAIN ? (
     <StyledLogoMainPage>
       <ReactComponent />
-      <Text>Фермерские продукты</Text>
+      <Text>Котокафе</Text>
     </StyledLogoMainPage>
   ) : (
     <StyledLogo to={AppRoute.MAIN}>
       <ReactComponent />
-      <Text>Фермерские продукты</Text>
+      <Text>Котокафе</Text>
     </StyledLogo>
   );
 }
